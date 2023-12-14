@@ -1,10 +1,10 @@
 import Card from 'react-bootstrap/Card';
 import image1 from '../assets/images/imgcomputer.png'
-import image2 from '../assets/images/img1.png';
-import image3 from '../assets/images/img2.png';
-import icon1 from '../assets/images/icon0.png'
-import icon2 from '../assets/images/icon1.png';
-import icon3 from '../assets/images/icon2.png';
+import image2 from '../assets/images/imgteam.png';
+import image3 from '../assets/images/imgdata.png';
+import icon1 from '../assets/images/icontec.png'
+import icon2 from '../assets/images/iconteam.png';
+import icon3 from '../assets/images/icondata.png';
 import React from 'react'; 
 import { Container, Row, Col, Image } from 'react-bootstrap';
 function Welcome() {
