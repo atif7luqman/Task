@@ -1,5 +1,5 @@
 import Card from 'react-bootstrap/Card';
-import image1 from '../assets/images/img0.png'
+import image1 from '../assets/images/imgcomputer.png'
 import image2 from '../assets/images/img1.png';
 import image3 from '../assets/images/img2.png';
 import icon1 from '../assets/images/icon0.png'
