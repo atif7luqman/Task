@@ -1,5 +1,6 @@
 import React from 'react'
 import Header from './components/Header'
+import Welcome from './components/Welcom'
 import Hero from './components/Hero'
 import Footer from './components/Footer'
 import { Route, Routes } from 'react-router-dom'
@@ -17,7 +18,8 @@ function App() {
         
       </Routes>
       <Header />
-      <Hero />
+      <Welcome />
+      {/* <Hero /> */}
       <Footer />
     </div>
   )
