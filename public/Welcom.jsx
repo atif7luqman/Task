@@ -16,7 +16,7 @@ function Welcome() {
                 <Card.Img variant="top" src={"/imgcomputer.png"} />
                 <Card.Body>
                     <div style={{ position: 'absolute', top: '72%', left: '50%', transform: 'translate(-50%, -50%)' }}>
-                    <Image src={"/icontech.png"} width={50}/>
+                    <Image src={"/Icontech.png"} width={50}/>
                     </div>
                     <Card.Text className="text-center pt-3 fw-bold">Technology</Card.Text>
                 </Card.Body>
@@ -27,7 +27,7 @@ function Welcome() {
                 <Card.Img variant="top" src={"/imgteam.png"} />
                 <Card.Body>
                     <div style={{ position: 'absolute', top: '72%', left: '50%', transform: 'translate(-50%, -50%)' }}>
-                    <Image src={"/iconteam.png"} width={50}/>
+                    <Image src={"/Iconteam.png"} width={50}/>
                     </div>
                     <Card.Text className="text-center pt-3 fw-bold">Team</Card.Text>
                 </Card.Body>
@@ -38,7 +38,7 @@ function Welcome() {
                 <Card.Img variant="top" src={"/imgdata.png"} />
                 <Card.Body>
                     <div style={{ position: 'absolute', top: '72%', left: '50%', transform: 'translate(-50%, -50%)' }}>
-                    <Image src={"/icondata.png"} width={50}/>
+                    <Image src={"/Icondata.png"} width={50}/>
                     </div>
                     <Card.Text className="text-center pt-3 fw-bold">Technology</Card.Text>
                 </Card.Body>
