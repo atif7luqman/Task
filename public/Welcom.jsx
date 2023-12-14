@@ -1,10 +1,4 @@
 import Card from 'react-bootstrap/Card';
-import image1 from '../assets/images/imgcomputer.png'
-import image2 from '../assets/images/imgteam.png';
-import image3 from '../assets/images/imgdata.png';
-import icon1 from '../assets/images/icontech.png'
-import icon2 from '../assets/images/iconteam.png';
-import icon3 from '../assets/images/icondata.png';
 import React from 'react'; 
 import { Container, Row, Col, Image } from 'react-bootstrap';
 function Welcome() {
@@ -19,10 +13,10 @@ function Welcome() {
       <Row className='container'>
           <Col >
             <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src={image1} />
+                <Card.Img variant="top" src={"/imgcomputer.png"} />
                 <Card.Body>
                     <div style={{ position: 'absolute', top: '72%', left: '50%', transform: 'translate(-50%, -50%)' }}>
-                    <Image src={icon1} width={50}/>
+                    <Image src={"/icontech.png"} width={50}/>
                     </div>
                     <Card.Text className="text-center pt-3 fw-bold">Technology</Card.Text>
                 </Card.Body>
@@ -30,10 +24,10 @@ function Welcome() {
           </Col>
           <Col >
           <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src={image2} />
+                <Card.Img variant="top" src={"/imgteam.png"} />
                 <Card.Body>
                     <div style={{ position: 'absolute', top: '72%', left: '50%', transform: 'translate(-50%, -50%)' }}>
-                    <Image src={icon2} width={50}/>
+                    <Image src={"/iconteam.png"} width={50}/>
                     </div>
                     <Card.Text className="text-center pt-3 fw-bold">Team</Card.Text>
                 </Card.Body>
@@ -41,10 +35,10 @@ function Welcome() {
           </Col>
           <Col >
           <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src={image3} />
+                <Card.Img variant="top" src={"/imgdata.png"} />
                 <Card.Body>
                     <div style={{ position: 'absolute', top: '72%', left: '50%', transform: 'translate(-50%, -50%)' }}>
-                    <Image src={icon3} width={50}/>
+                    <Image src={"/icondata.png"} width={50}/>
                     </div>
                     <Card.Text className="text-center pt-3 fw-bold">Technology</Card.Text>
                 </Card.Body>
