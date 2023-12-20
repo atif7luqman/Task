@@ -1,5 +1,4 @@
 import Card from 'react-bootstrap/Card';
-import React from 'react'; 
 
 import { Container, Row, Col, Image } from 'react-bootstrap';
 function Welcome() {
@@ -46,9 +45,6 @@ function Welcome() {
             </Card>
           </Col>
       </Row>
-
-
-
     </Container>
   );
 }
