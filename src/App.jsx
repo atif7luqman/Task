@@ -1,14 +1,16 @@
 import React from 'react'
 import Header from './components/Header'
-import Welcome from '../public/Welcom'
-import Hero from './components/Hero'
+import Welcome from './components/Welcom'
+// import Hero from './components/Hero'
 import Footer from './components/Footer'
 import { Route, Routes } from 'react-router-dom'
+import './App.css'
+
 
 
 function App() {
   return (
-    <div>
+    <div className='SFPRO'>
       <Routes>
         
         {/* <Route path={'/'} element={<><Header /> <Home /> </>} />

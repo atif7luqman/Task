@@ -1,5 +1,6 @@
 import Card from 'react-bootstrap/Card';
 import React from 'react'; 
+
 import { Container, Row, Col, Image } from 'react-bootstrap';
 function Welcome() {
   return (
@@ -7,7 +8,7 @@ function Welcome() {
       <Row className="centered-heading">
         <h1 className='text-center my-5'>
           Adding Alpha through
-          <span className="text-primary"> Estee's <br /> 3 fundamental advantages</span>
+          <span className="text-primary fw-" style={{fontStyle: 'italic'}}> Estee's <br /> 3 fundamental advantages</span>
         </h1>
       </Row>
       <Row className='container'>
