@@ -6,9 +6,9 @@ function Welcome() {
   return (
     <Container className='mb-5'>
       <Row className="centered-heading">
-        <h1 className='text-center my-5'>
+        <h1 className='text-center my-5 fw-bold'>
           Adding Alpha through
-          <span className="text-primary fw-" style={{fontStyle: 'italic'}}> Estee's <br /> 3 fundamental advantages</span>
+          <span className="text-primary fw-normal" style={{fontStyle: 'italic'}}> Estee's <br /> 3 fundamental advantages</span>
         </h1>
       </Row>
       <Row className='container'>
